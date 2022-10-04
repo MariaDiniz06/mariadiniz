@@ -1,0 +1,151 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ; /*quantidades de linha*/
+    grid-template-rows: 12vh 4vh 8vh 20vh 20vh 18vh 30vh 8vh 31vh 31vh; /*tamanho das colunas*/
+    grid-gap: 10px;
+    
+}
+
+header{ /*coluna com a logotipo*/
+    background-color: #070707;
+    grid-column-start:1;
+    grid-column-end:40;
+}
+
+nav{ /*linhazinha amarela*/
+    background-color:rgb(216, 174, 69); /*cor de fundo*/
+    grid-column-start:1;
+    grid-column-end:40;
+}
+
+main{ /*coluna Filmes e Séries*/
+    border: 3px solid black;
+    background-color: #900000;
+    grid-column-start:1;
+    grid-column-end:40;
+       
+}
+
+main h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(249, 249, 249);
+    text-align: center;
+    
+
+
+}
+
+section{ /*quadrinho Stranger Things*/
+    background-color:black ;
+    border: 6px solid rgb(216, 174, 69);/*bordas*/
+    border-radius: 8px; /*borda arredondada*/
+    grid-column-start:1;
+    grid-column-end:13;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    text-align: center;
+    
+}
+
+#a0{ /*quadrinho Anne*/
+    background-color:rgb(67, 79, 101);
+    border: 6px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    grid-column-start:14;
+    grid-column-end:26;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    text-align: center;
+    
+}
+
+#a1{ /*quadrinho Sense8*/
+    background-color:rgb(238, 240, 240);
+    border: 6px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    grid-column-start:27;
+    grid-column-end:40;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    
+}
+
+#a2{ /*quadrinho Gambito da Rainha*/
+    background-color:rgb(165, 136, 100);
+    border: 6px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    grid-column-start:1;
+    grid-column-end:12;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    display: grid;
+    text-align:center;
+    align-items: center;
+    
+    
+}
+
+#a3{ /*quadrinho Atypical*/
+    background-color: rgb(116, 223, 215);
+    border: 6px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    grid-column-start:12;
+    grid-column-end:28;
+    text-align: center;
+}
+
+#a4{ /*quadrinho Orphan Black*/
+    background-color: black;
+    border: 6px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    grid-column-start:28;
+    grid-column-end:40;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    text-align: center;
+}
+
+#a5{ /*coluna Sugestões*/
+    border: 3px solid black;
+    background-color: #900000;
+    grid-column-start:1;
+    grid-column-end:40;
+    
+}
+
+#a5 h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(249, 249, 249);
+    text-align: center;
+
+}
+
+#a6{ /*Sugestões*/
+    border: 5px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    background-color: rgb(8, 8, 8);
+    grid-column-start:1;
+    grid-column-end:40;
+    text-align: center;
+}
+
+#a7{ /*Sugestões*/
+    border: 5px solid rgb(216, 174, 69);
+    border-radius: 8px;
+    background-color: rgb(8, 8, 8);
+    grid-column-start:1;
+    grid-column-end:40;
+    text-align: center;
+}
+
+body{ /*Tela de Fundo*/
+    background-color:#434141;
+    
+}
+
+img{
+    border-radius: 4px;
+}
+
