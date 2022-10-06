@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ; /*quantidades de linha*/
-    grid-template-rows: 12vh 4vh 8vh 20vh 20vh 18vh 30vh 8vh 31vh 31vh; /*tamanho das colunas*/
+    grid-template-rows: 7% 2% 4% 10% 5% 5% 12% 12%; /*tamanho das colunas*/
     grid-gap: 10px;
     
 }
@@ -52,8 +52,8 @@ section{ /*quadrinho Stranger Things*/
     background-color:rgb(67, 79, 101);
     border: 6px solid rgb(216, 174, 69);
     border-radius: 8px;
-    grid-column-start:14;
-    grid-column-end:26;
+    grid-column-start:15;
+    grid-column-end:25;
     grid-row-start: 4;
     grid-row-end: 7;
     text-align: center;
