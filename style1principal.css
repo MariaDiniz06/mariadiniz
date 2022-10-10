@@ -1,14 +1,14 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ; /*quantidades de linha*/
-    grid-template-rows: 5.2% 2% 5% 7% 10% 5% 15% 5% 17% 17% ; /*tamanho das colunas*/
+    grid-template-rows: 4.8% 2% 5% 10% 10% 5% 15% 5% 34%  ; /*tamanho das colunas*/
     grid-gap: 10px;
     
 }
 
 header{ /*coluna com a logotipo*/
-    border: 4px solid black;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
     grid-column-start:1;
     grid-column-end:40;
 }
@@ -121,7 +121,7 @@ section{ /*quadrinho Stranger Things*/
 }
 
 #a6{ /*Sugestões*/
-    border: 5px solid rgb(216, 174, 69);
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 8px;
     background-color: rgb(8, 8, 8);
     grid-column-start:1;
@@ -130,14 +130,6 @@ section{ /*quadrinho Stranger Things*/
     
 }
 
-#a7{ /*Sugestões*/
-    border: 5px solid rgb(216, 174, 69);
-    border-radius: 8px;
-    background-color: rgb(8, 8, 8);
-    grid-column-start:1;
-    grid-column-end:40;
-    text-align: center;
-}
 
 body{ /*Tela de Fundo*/
     background-color:#434141;

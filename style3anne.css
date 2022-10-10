@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
-    grid-template-rows: 12vh 4vh 8vh 21vh 9vh 47vh 9vh 32vh  ;
+    grid-template-rows: 4.8% 2% 5% 15% 5% 43% 5% 15% ;
     grid-gap: 10px;
     
 }
@@ -15,8 +15,8 @@ body{
 }
 
 header{
-    border: 3px solid black;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
     grid-column-start:1;
     grid-column-end:40;
 }
@@ -64,8 +64,8 @@ p{
     background-color: black;
     border: 3px solid #900000;
     border-radius: 8px;
-    grid-column-start:3;
-    grid-column-end:15;
+    grid-column-start:1;
+    grid-column-end:40;
     text-align: center;
     font-size: small;
 }
@@ -95,7 +95,7 @@ p{
 }
 
 #a3{
-    border: 5px solid black;
+    border: 3px solid rgb(255, 255, 255);
     border-radius: 8px;
     background-color: rgb(8, 8, 8);
     grid-column-start:2;
